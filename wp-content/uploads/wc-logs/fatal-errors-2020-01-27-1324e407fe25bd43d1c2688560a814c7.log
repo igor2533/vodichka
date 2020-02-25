@@ -1,0 +1,62 @@
+2020-01-27T21:59:41+00:00 CRITICAL syntax error, unexpected '$categ' (T_VARIABLE) в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 99
+
+2020-01-27T22:02:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::category() in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php:97
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[ в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 97
+
+2020-01-27T22:02:48+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php:97
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcod в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 97
+
+2020-01-27T22:03:00+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php:97
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcod в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 97
+
+2020-01-27T22:03:03+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php:97
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcod в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 97
+
+2020-01-27T22:03:21+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php:97
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcod в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 97
+
+2020-01-27T22:03:25+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php:97
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(325): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcod в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 97
+

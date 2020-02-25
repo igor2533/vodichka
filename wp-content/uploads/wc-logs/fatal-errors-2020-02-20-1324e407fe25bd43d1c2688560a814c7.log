@@ -1,0 +1,28 @@
+2020-02-20T00:01:36+00:00 CRITICAL syntax error, unexpected '.' в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\cart\cart.php на строке 82
+
+2020-02-20T00:13:23+00:00 CRITICAL Uncaught Error: Call to undefined function front_page() in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-single-product.php:34
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-includes\template.php(724): require()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(195): load_template('C:\\panel\\domain...', false)
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\templates\single-product.php(36): wc_get_template_part('content', 'single-product')
+#3 C:\panel\domains\localhost\vodichka\wp-includes\template-loader.php(98): include('C:\\panel\\domain...')
+#4 C:\panel\domains\localhost\vodichka\wp-blog-header.php(19): require_once('C:\\panel\\domain...')
+#5 C:\panel\domains\localhost\vodichka\index.php(17): require('C:\\panel\\domain...')
+#6 {main}
+  thrown в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-single-product.php на строке 34
+
+2020-02-20T00:13:40+00:00 CRITICAL Uncaught Error: Call to undefined function front_page() in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-single-product.php:34
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-includes\template.php(724): require()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(195): load_template('C:\\panel\\domain...', false)
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\templates\single-product.php(36): wc_get_template_part('content', 'single-product')
+#3 C:\panel\domains\localhost\vodichka\wp-includes\template-loader.php(98): include('C:\\panel\\domain...')
+#4 C:\panel\domains\localhost\vodichka\wp-blog-header.php(19): require_once('C:\\panel\\domain...')
+#5 C:\panel\domains\localhost\vodichka\index.php(17): require('C:\\panel\\domain...')
+#6 {main}
+  thrown в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-single-product.php на строке 34
+
+2020-02-20T00:17:35+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\front-page.php на строке 16
+
+2020-02-20T00:17:51+00:00 CRITICAL syntax error, unexpected end of file в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-single-product.php на строке 124
+

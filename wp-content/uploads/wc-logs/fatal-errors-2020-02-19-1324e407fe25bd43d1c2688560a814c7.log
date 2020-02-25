@@ -1,0 +1,25 @@
+2020-02-19T22:51:16+00:00 CRITICAL Uncaught Error: Call to undefined function the_titile() in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\single-product\related.php:50
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1925): wc_get_template('single-product/...', Array)
+#2 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1888): woocommerce_related_products(Array)
+#3 C:\panel\domains\localhost\vodichka\wp-includes\class-wp-hook.php(288): woocommerce_output_related_products('')
+#4 C:\panel\domains\localhost\vodichka\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 C:\panel\domains\localhost\vodichka\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-singl в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\single-product\related.php на строке 50
+
+2020-02-19T23:07:56+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\single-product\add-to-cart\variable.php на строке 159
+
+2020-02-19T23:11:18+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\single-product\add-to-cart\variable.php на строке 162
+
+2020-02-19T23:11:53+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\single-product\add-to-cart\variable.php на строке 160
+
+2020-02-19T23:16:10+00:00 CRITICAL Uncaught Error: Call to undefined function the_titile() in C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-product-related.php:44
+Stack trace:
+#0 C:\panel\domains\localhost\vodichka\wp-includes\template.php(724): require()
+#1 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(195): load_template('C:\\panel\\domain...', false)
+#2 C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\single-product\related.php(43): wc_get_template_part('content', 'product-related')
+#3 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\panel\\domain...')
+#4 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1925): wc_get_template('single-product/...', Array)
+#5 C:\panel\domains\localhost\vodichka\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1888): woocommerce_related_products(Ar в C:\panel\domains\localhost\vodichka\wp-content\themes\twentyseventeen\woocommerce\content-product-related.php на строке 44
+
