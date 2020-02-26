@@ -124,7 +124,7 @@ div#order_review {
     padding-bottom: 20px;
     border: 1px solid #cccccc;
 
-    margin-top: 244px;
+    margin-top: 205px;
 }
 
 .payment_box.payment_method_cod {

@@ -29,9 +29,7 @@ get_header(); ?>
  </style>
 
 
-<div class="container">
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
+	
 
 		<?php
 		// Show the selected front page content.
@@ -68,8 +66,8 @@ get_header(); ?>
 	endif; // The if ( 0 !== twentyseventeen_panel_count() ) ends here.
 		?>
 
-	</main><!-- #main -->
-</div><!-- #primary --></div>
+
+
 <?php get_sidebar(); ?>
 <?php
 get_footer();

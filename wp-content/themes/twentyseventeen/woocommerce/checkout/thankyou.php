@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
  <style>
   @media screen and (min-width: 1300px){
     div#primary {
-  
+
     width: 66%!important;
     border-right: 1px solid #2d2e83!important;
     padding-right: 6px;
@@ -29,7 +29,9 @@ defined( 'ABSPATH' ) || exit;
     width: 27%!important;
 }
 
-
+.woocommerce-order {
+    padding-bottom: 200px;
+}
 .site-content {padding-bottom: 0px!important;}
 
 

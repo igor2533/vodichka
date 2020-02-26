@@ -691,3 +691,14 @@ function custom_override_checkout_fields( $fields ) {
   unset($fields['billing']['billing_postcode']);// индекс 
     return $fields;
 }
+
+
+
+
+add_filter( 'woocommerce_output_related_products_args', 'jk_related_products_args' );
+ function jk_related_products_args( $args ) {
+
+$args['posts_per_page'] = 5; // количество "Похожих товаров"
+ $args['columns'] = 1; // количество колонок
+ return $args;
+}

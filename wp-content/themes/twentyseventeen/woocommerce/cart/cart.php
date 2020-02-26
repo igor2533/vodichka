@@ -20,6 +20,12 @@ defined( 'ABSPATH' ) || exit;
 do_action( 'woocommerce_before_cart' ); ?>
 
 <style>
+
+td.borod>a {
+  
+    font-size: 13px;
+}
+
 	@media screen and (min-width: 1300px){
 
 		aside#secondary {
@@ -29,12 +35,18 @@ do_action( 'woocommerce_before_cart' ); ?>
 		}
 
 
+
 		div#primary {
 
     width: 66%!important;
     border-right: 1px solid #2d2e83!important;
-    padding-right: 6px;
+    padding-right: 11px;  padding-bottom: 30px;
 }
+
+
+
+
+
 .has-sidebar #secondary {
     width: 27%!important;
 }

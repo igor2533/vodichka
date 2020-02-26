@@ -28,8 +28,75 @@ if ( $related_products ) : ?>
 
 		if ( $heading ) :
 			?>
+			<style>div#masss {
+    float: left;
+}
+
+
+div#masss .others ul li:nth-child(4) {
+    display: none;
+}
+
+
+div#masss .others ul li:nth-child(5) {
+    display: none;
+}
+
+
+
+
+
+
+div#masss2 .others ul li:nth-child(1) {
+    display: none;
+}
+
+
+div#masss2 .others ul li:nth-child(2) {
+    display: none;
+}
+
+div#masss2 .others ul li:nth-child(3) {
+    display: none;
+}
+
+
+
+
+ </style><div class="odo">	<div id="masss">
 			<h2 id="motas">В продаже имеются другие серии:</h2>
 		<?php endif; ?>
+		
+		<div class="others">
+			<ul>
+		<?php woocommerce_product_loop_start(); ?>
+
+			<?php foreach ( $related_products as $related_product ) : ?>
+
+					<?php
+
+                    
+
+					$post_object = get_post( $related_product->get_id() );
+
+					setup_postdata( $GLOBALS['post'] =& $post_object ); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited, Squiz.PHP.DisallowMultipleAssignments.Found
+
+					wc_get_template_part( 'content', 'product-related' );
+
+					?>
+
+			<?php endforeach; ?>
+
+		<?php woocommerce_product_loop_end(); ?>
+	</ul>
+	</div>
+</div>
+
+
+
+			<div id="masss2" style="">
+			<h2 style="text-align: left;" id="motas">а также:</h2>
+	
 		
 		<div class="others">
 			<ul>
@@ -50,6 +117,15 @@ if ( $related_products ) : ?>
 		<?php woocommerce_product_loop_end(); ?>
 	</ul>
 	</div>
+</div>
+</div>
+
+
+
+
+
+
+
 
 
 	<?php

@@ -473,6 +473,30 @@ td.borod>a:hover {
 td.borod>img {
     margin-left: 15px;
 }
+
+
+.entry-content a, .entry-summary a, .comment-content a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong
+{
+
+    -webkit-box-shadow:none; box-shadow: none;
+}
+
+
+.entry-content a img, .comment-content a img, .widget a img {
+  
+    box-shadow: none;-webkit-box-shadow:none;
+}
+
+
+
+
+.others ul li img {
+ 
+    box-shadow: none;
+}
+.others>ul>ul>li>a:hover {
+    box-shadow: none;
+}
 </style>
 <?php wp_head(); ?>
 </head>

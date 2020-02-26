@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -113,6 +113,21 @@ img {
   color: #32338e;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .price-title p{
   padding-left: 7px;
   color: #666666;
@@ -195,7 +210,7 @@ img {
 }
 .order p{
   color: #666666;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
   font-size: 15px;
   padding-right: 66px;
 }
@@ -221,7 +236,7 @@ img {
 }
 .sale p{
   color: #666666;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
   font-size: 15px;
   padding-right: 63px;
 }
@@ -254,7 +269,7 @@ img {
 
 .order-deliv p{
   color: #666666;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
   font-size: 15px;
   padding-right: 5px;
 }
@@ -289,7 +304,7 @@ img {
   display: flex;
   color: #666666;
   font-size: 15px;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .left-wrap{
@@ -307,14 +322,14 @@ img {
   color: #666666;
   font-size: 15px;
   border-right: 2px solid #989898;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 .type span{
   color: #666666;
   font-size: 15px;
   padding-left: 5px;
   padding-right: 10px;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .quantiti{
@@ -322,26 +337,26 @@ img {
   padding-right: 10px;
   font-size: 15px;
   border-right: 2px solid #989898;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 .quantiti span{
   color: #666666;
   font-size: 15px;
   padding-left: 10px;
   padding-right: 5px;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .coast{
   color: #666666;
   font-size: 18px;
   padding-left: 10px;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 .coast span{
   color: #666666;
   font-size: 15px;
-  font-family: 'Arial Narrow', sans-serif; 
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .section-list{
@@ -385,7 +400,7 @@ img {
     cursor: pointer;
     font-size: 15px;
     color: #666666;
-     font-family: 'Arial Narrow', sans-serif; 
+     font-family: 'Arial Narrow', sans-serif;
 }
 .checkmark {
     position: absolute;
@@ -404,7 +419,7 @@ img {
 }
 .offer a{
     color: #6f70b0;
-    font-family: 'Arial Narrow', sans-serif; 
+    font-family: 'Arial Narrow', sans-serif;
     font-size: 15px;
     text-decoration: none;
     border-bottom: 2px solid #bfc0da;
@@ -436,7 +451,7 @@ img {
    padding-bottom: 13px;
 }
 .delivery-wrap{
-    padding-bottom: 85px; 
+    padding-bottom: 85px;
 }
 .delivery-method h2{
   color: #32338e;
@@ -1308,7 +1323,7 @@ img {
   padding-left: 23px; }
   .content-wrapper .container .content {
     width: 870px; }
-    .content-wrapper .container .content .product-name {
+ .container .content .product-name {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1320,29 +1335,29 @@ img {
       justify-content: space-between;
       padding-right: 18px;
       padding-top: 2px; }
-      .content-wrapper .container .content .product-name p {
+    .container .content .product-name p {
         font-family: 'Tahoma', sans-serif;
         font-size: 24px;
         color: #32338e; }
-        .content-wrapper .container .content .product-name p b {
+     .container .content .product-name p b {
           font-weight: 700; }
-      .content-wrapper .container .content .product-name span {
+      .container .content .product-name span {
         font-size: 14px;
         color: #999999; }
-  .content-wrapper .container .sidebar {
-    border-left: 1px solid #2d2e83;
-    padding: 10px 30px 10px 10px;
-    width: 460px;
+.sidebar {
+
+
     position: relative; }
-    .content-wrapper .container .sidebar .actions {
+.sidebar .actions {
       position: absolute;
-      top: 1px;
-      right: 2px; }
-      .content-wrapper .container .sidebar .actions.sticky {
+      top: 10px;
+      right: -18px;
+       }
+.sidebar .actions.sticky {
         position: fixed;
-        right: calc((100vw - 1380px) / 2);
+  right: 0;
         top: 40px; }
-      .content-wrapper .container .sidebar .actions .action {
+ .sidebar .actions .action {
         width: 30px;
         height: 31px;
         border-bottom: 1px solid #fff;
@@ -1360,18 +1375,18 @@ img {
         transition: .3s;
         position: relative;
         text-align: center; }
-        .content-wrapper .container .sidebar .actions .action.social:not(.active) {
+    .sidebar .actions .action.social:not(.active) {
           display: none; }
-        .content-wrapper .container .sidebar .actions .action img {
+ .sidebar .actions .action img {
           vertical-align: middle;
           margin-left: -1.5px; }
-        .content-wrapper .container .sidebar .actions .action:hover {
+.sidebar .actions .action:hover {
           background: #2d2e83; }
-    .content-wrapper .container .sidebar .video {
+  .sidebar .video {
       margin-bottom: 24px; }
-    .content-wrapper .container .sidebar .article + .article {
+   .sidebar .article + .article {
       margin-top: 25px; }
-    .content-wrapper .container .sidebar .banner {
+ .sidebar .banner {
       margin-bottom: 22px; }
 
 .copyright {
@@ -2254,7 +2269,7 @@ font-size: 20px;
       .content-wrapper .container .content .product-name p {
         width: 100%;
         margin-bottom: 5px; }
-  .content-wrapper .container .sidebar .actions {
+ .sidebar .actions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2265,7 +2280,7 @@ font-size: 20px;
     top: auto;
     z-index: 10;
     bottom: 0; }
-    .content-wrapper .container .sidebar .actions .action {
+ .sidebar .actions .action {
       border: none;
       border-right: 1px solid #fff;
       width: calc(100% / 10);
@@ -2305,7 +2320,7 @@ font-size: 20px;
 @media only screen and (max-width: 375px){
  .price-back a {
     font-size: 16px;
-} 
+}
 .cheked-delivery {
     margin-left: 87px;
 }
